@@ -1,6 +1,27 @@
 # dependabot-cli
 It is a command line tool to help you generate Github's dependabot.yml based on your project.
 
+## Getting started
+
+### Install
+```sh
+npm install -g @clouxart/dependabot
+# or
+yarn global add @clouxart/dependabot
+# or just run without installing it
+npx @clouxart/dependabot
+```
+
+### Usage
+
+```sh
+dependabot
+#or
+dependabot ./my-projects-root-path
+#or
+dependabot --yes # it runs with default values
+```
+
 ## TODOs
 - ignore config per package manager. i.e:
 ```yaml
