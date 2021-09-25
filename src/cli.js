@@ -157,6 +157,9 @@ updates:`;
     });
   }
 
+  // Adding a new line to the end of the file
+  yaml_file += '\n'
+
   return yaml_file;
 }
 
