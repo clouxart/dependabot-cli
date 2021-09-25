@@ -1,6 +1,8 @@
 # dependabot-cli
 It is a command line tool to help you generate Github's dependabot.yml based on your project.
 
+![dependabot-config-generator demo gif](./media/dependabot-cli.gif)
+
 ## Getting started
 
 ### Install
